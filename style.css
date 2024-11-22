@@ -427,6 +427,37 @@ h2 {
     color: var(--color-accent);
 }
 
+.card-price {
+    text-align: center;
+}
+
+.price-content span {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.oferta-content {
+    font-size: 20px!important;
+    text-decoration: line-through;
+    color: #ff4545;
+}
+
+.real-price {
+    font-size: 32px!important;
+    color: var(--color-accent);
+    font-weight: bold!important;
+}
+
+.oferta-badge {
+    font-size: 12px!important;
+    padding: 2px 8px;
+    background-color: var(--color-accent);
+    border-radius: 100px;
+    font-weight: bold!important;
+    margin: 2px;
+}
+
 /* Tablets em paisagem */
 @media (max-width: 1024px) { 
     .card-grid-4 {
